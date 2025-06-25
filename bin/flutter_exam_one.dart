@@ -20,9 +20,9 @@ void main() {
   );
 
 
- 
+  print('{');
   for (var entry in sorted.entries) {
     print('  "${entry.key}": ${entry.value},');
   }
-
+  print('}');
 }
